@@ -1,16 +1,12 @@
 {
-  "name": "new-folder",
+  "name": "express-on-vercel",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "csv-parser": "^3.0.0",
-    "express": "^4.21.2"
+    "csv-parser": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel --prod"
   }
 }
